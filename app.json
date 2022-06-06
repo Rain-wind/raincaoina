@@ -1,0 +1,30 @@
+﻿{
+  "name": "RainingDCh",
+  "description": "D_Ch v2",
+  "keywords": [
+    ""
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议vme或vle，请填小写的vme或vle",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "cd25c323-449e-4dc8-a2ed-4316f9b7aa0d",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/raincaoina",
+      "required": true
+    }
+  },
+  "website": "",
+  "repository": "",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
